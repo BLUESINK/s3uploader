@@ -7,4 +7,4 @@ include_directories(include)
 file(GLOB SOURCES_AWS "aws/*.c")
 file(GLOB SOURCES_CRYPTO "crypto/*.c")
 
-add_executable(s3_uploader main.c ${SOURCES_AWS} ${SOURCES_CRYPTO})
+add_executable(s3uploader main.c ${SOURCES_AWS} ${SOURCES_CRYPTO})
